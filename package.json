@@ -5,7 +5,10 @@
   "publisher": "gustavofernandes",
   "version": "0.0.1",
   "license": "MIT",
-  "repository": "https://github.com/arraesgustavo/vscode-holypy",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arraesgustavo/vscode-holypy.git"
+  },
   "icon": "logos/logo_bg.png",
   "engines": {
     "vscode": "^1.60.0"
