@@ -1,0 +1,11 @@
+fn main() -> u0 {
+    let message = "Hello, HolyPy!"
+    speak(message)
+    
+    if (true) {
+        cycle {
+            # Loop logic
+            free
+        }
+    }
+}

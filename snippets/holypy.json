@@ -1,0 +1,71 @@
+{
+  "Function Declaration": {
+    "prefix": "fn",
+    "body": [
+      "fn ${1:name}(${2:params}) -> ${3:type} {",
+      "\t$0",
+      "\treturn ${4:value}",
+      "}"
+    ],
+    "description": "Declare a HolyPy function"
+  },
+  "Variable Declaration": {
+    "prefix": "let",
+    "body": [
+      "let ${1:name}: ${2:type} = ${3:value}"
+    ],
+    "description": "Declare a HolyPy variable"
+  },
+  "Universal Loop": {
+    "prefix": "cycle",
+    "body": [
+      "cycle {",
+      "\t$0",
+      "}"
+    ],
+    "description": "HolyPy universal loop"
+  },
+  "If Statement": {
+    "prefix": "if",
+    "body": [
+      "if ${1:condition} {",
+      "\t$0",
+      "}"
+    ],
+    "description": "HolyPy conditional statement"
+  },
+  "If Else Statement": {
+    "prefix": "ifelse",
+    "body": [
+      "if ${1:condition} {",
+      "\t$2",
+      "} else {",
+      "\t$0",
+      "}"
+    ],
+    "description": "HolyPy conditional statement with else"
+  },
+  "Speak (Print)": {
+    "prefix": "speak",
+    "body": [
+      "speak(\"${1:message}\")"
+    ],
+    "description": "HolyPy print function"
+  },
+  "Receive (Input)": {
+    "prefix": "receive",
+    "body": [
+      "receive(${1:variable})"
+    ],
+    "description": "HolyPy input function"
+  },
+  "ASM Block": {
+    "prefix": "asm",
+    "body": [
+      "asm {",
+      "\t\"${1:instruction}\"",
+      "}"
+    ],
+    "description": "HolyPy inline assembly block"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "holypy",
+  "displayName": "holypy-support",
+  "description": "HolyPy language support.",
+  "publisher": "gustavofernandes",
+  "version": "0.0.1",
+  "icon": "logos/logo_bg.png",
+  "engines": {
+    "vscode": "^1.118.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "holypy",
+      "aliases": ["HolyPy", "holypy"],
+      "extensions": [".hpy"],
+      "configuration": "./language-configuration.json",
+      "icon": {
+        "light": "./logos/logo_vscode_bg.png",
+        "dark": "./logos/logo_vscode_bg.png"
+      }
+    }],
+    "grammars": [{
+      "language": "holypy",
+      "scopeName": "source.holypy",
+      "path": "./syntaxes/holypy.tmLanguage.json"
+    }],
+    "snippets": [{
+      "language": "holypy",
+      "path": "./snippets/holypy.json"
+    }]
+  }
+}
