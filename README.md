@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="logos/logo_bg.png" width="150" height="150" alt="HolyPy Logo">
-</p>
+![HolyPy Logo](logos/logo_bg.png)
 
 # HolyPy Support
 

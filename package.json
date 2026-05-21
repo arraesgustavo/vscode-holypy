@@ -1,35 +1,54 @@
 {
   "name": "holypy",
   "displayName": "holypy-support",
-  "description": "HolyPy language support.",
+  "description": "HolyPy language support for VS Code.",
   "publisher": "gustavofernandes",
   "version": "0.0.1",
+  "license": "MIT",
+  "repository": "https://github.com/arraesgustavo/vscode-holypy",
   "icon": "logos/logo_bg.png",
   "engines": {
-    "vscode": "^1.118.0"
+    "vscode": "^1.60.0"
   },
+  "keywords": [
+    "holypy",
+    "compiler",
+    "unifei"
+  ],
   "categories": [
-    "Programming Languages"
+    "Programming Languages",
+    "Snippets"
   ],
   "contributes": {
-    "languages": [{
-      "id": "holypy",
-      "aliases": ["HolyPy", "holypy"],
-      "extensions": [".hpy"],
-      "configuration": "./language-configuration.json",
-      "icon": {
-        "light": "./logos/logo_vscode_bg.png",
-        "dark": "./logos/logo_vscode_bg.png"
+    "languages": [
+      {
+        "id": "holypy",
+        "aliases": [
+          "HolyPy",
+          "holypy"
+        ],
+        "extensions": [
+          ".hpy"
+        ],
+        "configuration": "./language-configuration.json",
+        "icon": {
+          "light": "./logos/logo_vscode_bg.png",
+          "dark": "./logos/logo_vscode_bg.png"
+        }
       }
-    }],
-    "grammars": [{
-      "language": "holypy",
-      "scopeName": "source.holypy",
-      "path": "./syntaxes/holypy.tmLanguage.json"
-    }],
-    "snippets": [{
-      "language": "holypy",
-      "path": "./snippets/holypy.json"
-    }]
+    ],
+    "grammars": [
+      {
+        "language": "holypy",
+        "scopeName": "source.holypy",
+        "path": "./syntaxes/holypy.tmLanguage.json"
+      }
+    ],
+    "snippets": [
+      {
+        "language": "holypy",
+        "path": "./snippets/holypy.json"
+      }
+    ]
   }
 }
