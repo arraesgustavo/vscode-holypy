@@ -1,3 +1,5 @@
+![HolyPy Logo](logos/logo_bg.png)
+
 # HolyPy Support
 
 Visual Studio Code extension providing language support for **HolyPy**, a custom programming language designed for the Compilers course (ECOM06) at UNIFEI.
